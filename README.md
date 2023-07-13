@@ -15,9 +15,11 @@
 - 가용성 영역은 고속 프라이빗 광 네트워크를 통해 연결됨.
 
 ![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-core-architectural-components-of-azure/media/availability-zones-c22f95a3.png)
-<br/>
+<br/><br/>
 
 **지역 쌍**
 - 대부분의 Azure 지역은 300마일 이상 떨어져 있는 동일한 지리적 위치 내의 다른 Azure 지역과 쌍을 이룬다. 이를 통해 한 지리적 위치에서 리소스를 복제할 수 있고 장애로 인한 서비스 중단 현상이 일어날 가능성을 줄일 수 있다.
 - Azure 운영 중단이 광범위하게 발생하는 경우 모든 쌍 중 한 개의 영역이 우선시되어 해당 영역 쌍에서 호스팅되는 애플리케이션에 대해 최소 한 개의 영역이 최대한 빨리 복원되도록 한다.
+<br/>
+
 ![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-core-architectural-components-of-azure/media/region-pairs-7c495a33.png)
