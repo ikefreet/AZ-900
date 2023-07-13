@@ -22,7 +22,7 @@
 - Azure 운영 중단이 광범위하게 발생하는 경우 모든 쌍 중 한 개의 영역이 우선시되어 해당 영역 쌍에서 호스팅되는 애플리케이션에 대해 최소 한 개의 영역이 최대한 빨리 복원되도록 한다.
 
 ![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-core-architectural-components-of-azure/media/region-pairs-7c495a33.png)
-<br/>
+<br>
 
 ## Azure 관리 인프라
 **Azure 리소스 및 리소스 그룹**
