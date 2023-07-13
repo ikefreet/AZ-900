@@ -14,3 +14,4 @@
 - 가용성 영역은 격리 경계로 설저오딘다. 한 영역이 다운되어도 다른 영역은 계속 작동한다.
 - 가용성 영역은 고속 프라이빗 광 네트워크를 통해 연결됨.
 
+![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-core-architectural-components-of-azure/media/availability-zones-c22f95a3.png)
