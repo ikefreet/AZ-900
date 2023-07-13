@@ -96,4 +96,53 @@
 - 트리거 때 코드를 실행하고 함수가 완료될 때 자동으로 리소스 할당을 해제한다.
 
 
+**Azure App Service**
+- 인프라를 관리할 필요 없이 원하는 프로그래밍 언어로 웹앱, 백그라운드 작업, 모바일 백 엔드 및 RESTful API를 빌드하고 호스트 가능
+- 자동 확장 기능과 고가용성을 제공
+- Windows 및 Linux를 지원하며 GitHub, Azure DevOps 또는  Git 레포지토리에서 자동화 된 배포를 사용하여 지속적인 배포 모델을 지원
+- 웹 애플리케이션, REST API 및 모바일 백 엔드를 호스트하는 HTTP 기반 서비스
 
+
+**Azure Virtual Network**
+- Azure Virtual Network와 Virtual Subnet을 사용하여 VM, 웹앱 및 데이터베이스와 같은 Azure 리소스가 서로 통신할 수 있고 인터넷의 사용자 및 온-프레미스 클라이언트 컴퓨터와 통신할 수 있다.
+- Networking Functions
+  - 격리 및 구분 : 격리된 여러 가상 네트워크를 생성 가능.
+  - 인터넷 통신
+  - Azure 리소스 간 통신
+  - 온-프레미스 리소스와 통신
+  - 네트워크 트래픽 라우팅
+  - 네트워크 트래픽 필터링
+  - Virtual Network 연결
+
+
+**Azure VPN**
+- VPN Gateway
+  - Virtual Network Gateway 유형
+  - 모든 데이터 전송은 인터넷을 통과할 때 프라이빗 터널 내부에서 암호화됨
+  - 정책 기반 VPN Gateway
+    - 각 터널을 통해 암호화되어야 하는 패킷의 IP 주소를 정적으로 지정
+    - 이러한 유형의 디바이스는 해당 IP 주소 세트에 대해 모든 데이터 패킷을 평가하여 해당 패킷이 전송될 터널을 선택한다.
+  - 경로 기반 Gateway
+    - IPSec 터널이 네트워크 인터페이스 또는 가상 터널 인터페이스로 모델링된다.
+    - IP 라우팅에 따라 각 패킷을 전송할 때 사용할 터널 인터페이스 중 하나가 결정된다.
+    - 온-프레미스 디바이스에서 주로 사용되며 토폴로지 변경에 대한 복원력이 좋다.
+
+
+**Azure ExpressRoute**
+- Azure ExpressRoute를 사용하면 연결 공급자의 도움을 받아 프라이빗 연결을 통해 온-프레미스 네트워크를 Microsoft 클라우드로 확장 가능.
+- Microsoft Azure 및 Microsoft 365와 같은 Microsoft 클라우드 서비스에 대한 연결 지원
+- 연결은 공동 배치 시설의 연결 공급자를 통해 Any-to-Any(IP VPN) 네트워크, 지점 간 이더넷 네트워크 또는 가상 교차 연결에서 수행 가능
+- 퍼블릭 인터넷 사용 안함.
+- ExpressRoute Global Reach로 모든 지역에서 Microsoft 서비스에 글로벌 연결 가능
+- BGP를 통한 네트워크와 Microsoft 간 동적 라우팅
+
+
+**Azure DNS**
+- Microsoft Azure 인프라를 사용하여 이름 분석을 하는 DNS 도메인용 호스팅 서비스
+- 자격증명, API, 도구 및 대금 청구를 사용하여 DNS 레코드 관리 가능
+- 이점
+  - 안정성 및 성능
+  - 보안
+  - 사용 편의성
+  - 사용자 지정 가능 가상 네트워크
+  - 별칭 레코드
