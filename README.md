@@ -211,3 +211,25 @@
 
     ![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-azure-storage-services/media/geo-zone-redundant-storage-138ab5af.png)
     <br/><br/>
+
+
+**Azure Storage Service**
+- Azure Blob : 텍스트 및 이진 데이터에 대한 확정성이 뛰어난 Storage. 빅 데이터 분석에도 쓰임
+- Azure Files : 클라우드 또는 온-프레미스 배포에 대한 관리되는 파일 공유
+- Azure Queue : 애플리케이션 구성 요소 간에 안정적인 메시징을 위한 메시징 저장소
+- Azure Disk : Azure VM용 블록 수준 Storage Volume
+
+- 이점
+  - 내구성 및 고가용성
+  - 보안
+  - Scaling 기능
+  - 자동 관리
+  - 액세스 가능(HTTPS&HTTPS, REST API...etc)
+
+
+**Azure Migrate**
+- 온-프레미스 환경에서 클루아드로 Migration하는 데 사용
+
+- Azure Data Box
+  - 빠르고 저렴하며 신뢰할 수 있는 방식으로 대량의 데이터 전송을 지원하는 물리적 Migration Service
+  - 디바이스의 최대 사용 가능한 스토리지 용량 = 80TB
