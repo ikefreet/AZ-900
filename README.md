@@ -177,6 +177,7 @@
     - 지정된 1년 동안 개체에 11개의 9(99.9999%) 이상의 내구성을 제공
     - 가장 저렴한 중복성 옵션이지만 다른 옵션에 비해 내구성이 가장 낮음.
     - 서버 랙 및 드라이브 오류로부터 데이터를 보호
-![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-azure-storage-services/media/locally-redundant-storage-37247957.png)
+    
+    ![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-azure-storage-services/media/locally-redundant-storage-37247957.png)
 
   - 영역 중복 Storage(ZRS)
