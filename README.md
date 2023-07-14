@@ -181,7 +181,7 @@
     - 서버 랙 및 드라이브 오류로부터 데이터를 보호
     
     ![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-azure-storage-services/media/locally-redundant-storage-37247957.png)
-    <br/>
+    <br/><br/>
 
   - 영역 중복 Storage(ZRS)
     - 가용성 영역 지원 지역의 경우, 주 지역의 3가지 Azure 가용성 영역에서 Azure Storage 데이터를 동기적으로 복제
