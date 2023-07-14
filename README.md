@@ -233,3 +233,19 @@
 - Azure Data Box
   - 빠르고 저렴하며 신뢰할 수 있는 방식으로 대량의 데이터 전송을 지원하는 물리적 Migration Service
   - 디바이스의 최대 사용 가능한 스토리지 용량 = 80TB
+
+
+**Azure 파일 이동 옵션**
+- AzCopy
+  - 파일을 복사하는데 사용되는 명령줄 유틸리티
+  - Storage 계정 간에 파일을 복사하고 동기화하는 것도 가능
+
+- Azure Storage Explorer
+  - Azure Storage 계정에서 파일 및 Blob을 관리하는 그래픽 인터페이스를 제공하는 독립 실행형 애플리케이션
+  - Windos, Linux, MacOS에서도 지원됨
+
+- Azure 파일 동기화
+  - Azure Files에서 파일 공유를 중앙 집중화하고 Windows 파일 서버의 유연성, 성능 및 호환성을 유지하는 도구
+  - SMB, NFS 및 FTPS를 포함하여 로컬로 데이터에 액세스하기 위해 Windows Server에서 사용할 수 있는 모든 프로토콜을 사용 가능
+  - 전 세계에서 필요한만큼의 많은 캐시를 가질 수 있다.
+  - 동일한 데이터 센터 내에서 서버 이전이 가능
