@@ -146,3 +146,37 @@
   - 사용 편의성
   - 사용자 지정 가능 가상 네트워크
   - 별칭 레코드
+
+
+
+## Azure Storage
+
+**Storage 계정**
+- HTTP 또는 HTTPS를 통해 전 세계 어디에서나 액세스할 수 있는 Azure Storage 데이터에 고유한 네임스페이스를 제공
+- 계정의 데이터는 안전하고 가용성과 내구성이 높으며 대규모 확장이 가능
+- 계정 유형
+  - LRS(로컬 중복 스토리지)
+  - GRS(지역 중복 스토리지)
+  - RA-GRS(읽기 액세스 지역 중복 스토리지)
+  - ZRS(영역 중복 스토리지)
+  - GZRS(지역 영역 중복 스토리지)
+  - RA-GZRS(읽기 액세스 지역 영역 중복 스토리지)
+ 
+**Storage 계정 Endpoint**
+- Azure Storage 계정을 사용할 경우 데이터에 대해 Azure에 고유한 네임스페이스를 갖는다.
+- 계정 이름과 Azure Storage 서비스 엔드포인트의 조합이 스토리지 계정의 엔드포인트가 된다.
+- Storage 계정 이름은 3자에서 24자 사이여야 하고 숫자 및 소문자만 포함 가능
+- Storage 계정 이름은 Azure 내에서 고유해야 한다.
+
+**Azure Storage 중복성**
+- 스토리지 계정이 오류 발생 시에도 가용성 및 내구성 목표를 충족하는지 확인
+- 기본 지역의 중복성
+  - Azure Storage 계정의 데이터는 항상 기본 지역에서 3번 복제된다.
+  - 로컬 중복 Storage(LRS)
+    - 기본 지역의 단일 데이터 센터내에서 데이터를 3번 복제
+    - 지정된 1년 동안 개체에 11개의 9(99.9999%) 이상의 내구성을 제공
+    - 가장 저렴한 중복성 옵션이지만 다른 옵션에 비해 내구성이 가장 낮음.
+    - 서버 랙 및 드라이브 오류로부터 데이터를 보호
+![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-azure-storage-services/media/locally-redundant-storage-37247957.png)
+
+  - 영역 중복 Storage(ZRS)
