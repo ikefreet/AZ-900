@@ -190,7 +190,7 @@
     - 고가용성이 필요한 시나리오인 경우 사용됨.
 
     ![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-azure-storage-services/media/zone-redundant-storage-6dd46d22.png)
-
+<br/>
 
 - 보조 지역의 중복성
   - 높은 내구성이 필요한 애플리케이션의 경우 스토리지 계정의 데이터를 주 지역에서 수백 킬로 떨어진 보조 지역에 추가로 복사할 수 있다.
