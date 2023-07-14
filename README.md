@@ -197,4 +197,17 @@
   - 장애 조치가 완료되면 보조 지역은 기본 지역이 되고 데이터를 다시 읽고 쓰기가 가능하다.
     
   - 지역 중복 Storage(GRS)
+    - LRS를 사용하여 주 지역의 단일 물리적 위치 내에서 데이터를 동기적으로 3번 복사
+    - 그 후 LRS를 사용하여 보조지역(지역 쌍)의 단일 물리적 위치에 데이터를 비동기적으로 복사
+    - 지정된 1년 동안 16개의 9(99.9999%) 이상의 내구성을 제공
 
+    ![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-azure-storage-services/media/geo-redundant-storage-3432d558.png)
+    <br/><br/>
+    
+  - 지역 영역 중복 Storage(GZRS)
+    - 가용성 영역 전체의 중복성으로 제공되는 고가용성과 지역에서 복제를 통해 제공되는 지역 중단 방지를 결합
+    - GZRS Storage 계정의 데이터는 주 지역의 Azure 가용성 영역에 복사되며 지역 재해로부터 보호하기 위해 LRS를 사용하여 보조 지리적 지역에도 복제됨.
+    - 재해 복구를 위해 최대 일관성, 내구성과 가용성, 뛰어난 성능 및 복원력이 필요한 경우 사용됨.
+
+    ![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-azure-storage-services/media/geo-zone-redundant-storage-138ab5af.png)
+    <br/><br/>
