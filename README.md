@@ -249,3 +249,23 @@
   - SMB, NFS 및 FTPS를 포함하여 로컬로 데이터에 액세스하기 위해 Windows Server에서 사용할 수 있는 모든 프로토콜을 사용 가능
   - 전 세계에서 필요한만큼의 많은 캐시를 가질 수 있다.
   - 동일한 데이터 센터 내에서 서버 이전이 가능
+
+
+## Azure ID, 액세스 및 보안
+**Azure Active Directory**
+- Microsoft 클라우드 애플리케이션과 개발하는 클라우드 애플리케이션 모두에 고르인하고 액세스할 수 있는 Directory 서비스
+- ID 계정을 관리하며 Microsoft에서 해당 서비스를 전역적으로 사용할 수 있도록 지원
+- 제공되는 서비스
+  - 인증
+  - Single Sing-On
+  - 애플리케이션 관리
+  - 디바이스 관리
+- Active Directory와 Azure AD를 연결하여 클라우드와 온-프레미스 간에 일관된 ID 환경을 사용할 수 있다.
+
+**Azure Active Directory Domain Service**
+- 도메인 조인, 그룹 정책, LDAP(Lightweight Directory Access Protocol) 및 Kerberos/NTLM 인증과 같은 관리되는 도메인 서비스를 제공하는 서비스
+- 작동 방식
+  - Azure AD DS 관리되는 도메인을 만들 때 고유한 네임스페이스를 정의
+  - 이 네임스페이스는 도메인 이름
+  - 두 개의 Windows Server 도메인 컨트롤러가 선택한 Azure 지역에 배포. 이 DC 배포를 복제본 세트라고 합니다.
+  - 이러한 DC를 관리, 구성 또는 업데이트할 필요가 없다. Azure 플랫폼은 Azure Disk Encryption을 사용한 저장 데이터 백업 및 암호화를 포함하여 관리되는 도메인의 일부로 DC를 처리한다.
