@@ -269,3 +269,46 @@
   - 이 네임스페이스는 도메인 이름
   - 두 개의 Windows Server 도메인 컨트롤러가 선택한 Azure 지역에 배포. 이 DC 배포를 복제본 세트라고 합니다.
   - 이러한 DC를 관리, 구성 또는 업데이트할 필요가 없다. Azure 플랫폼은 Azure Disk Encryption을 사용한 저장 데이터 백업 및 암호화를 포함하여 관리되는 도메인의 일부로 DC를 처리한다.
+
+
+**Azure 인증 방법**
+- Single Sign-On : 사용자가 한 번 로그인하고 해당 자격 증명을 사용하여 여러 공급자의 여러 리소스 및 애플리케이션에 액세스. 다른 애플리케이션과 공급자가 초기 인증자를 신뢰해야함
+  
+- 다단계 인증(MFA) : 로그인 프로세스 중에 사용자에게 식별의 추가 양식을 요청하는 프로세스
+  
+- 암호 없는 인증 : 암호가 제거되고 사용자가 소유하고 있거나 알고 있는 인증 수단으로 대체되는 수단(애플리케이션 인증, 지문, PIN...etc)
+  - Azure의 암호 없는 인증 수단
+    - 비즈니스용 Windows Hello : 지정된 Windows PC 정보 사용
+    - Microsofot Authenticator 앱
+    - FIDO2 보안 키
+
+**Azure 역할 기반 액세스 제어**
+
+![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-azure-identity-access-security/media/role-based-access-scope-4b12a8f3.png)
+
+- Azure RBAC은 계층 구조로써 부모 범위에서 액세스 권한을 부여할 때 해당 권한은 모든 자식 범위에서 상속된다.
+
+
+**심층 방어**
+- 정보를 보호하고 무단 접근을 통한 도난 방지 목적
+- 데이터에 무단으로 액세스하기 위한 공격 진행 속도를 늦추는 여러 메커니즘을 사용하는 전략
+
+- 방어 계층
+
+  ![alt text](https://learn.microsoft.com/ko-kr/training/wwl-azure/describe-azure-identity-access-security/media/defense-depth-486afc12.png)
+
+  - 물리적 보안
+    - 물리적으로 건물에 대한 액세스를 보호하고 데이터 센터 내의 컴퓨팅 하드웨어에 대한 액세스를 제어
+
+  - ID 및 액세스
+    - ID를 안전하게 보호하고, 필요한 것에만 액세스 권한을 부여하고 로그인 이벤트 및 변경 내용이 기록되게 함
+    - 인프라에 대한 접근 및 제어 변경을 통제
+    - SSO(Single Sign-On) 및 다단계 인증을 사용
+    - 이벤트 및 변경 내용 감사
+
+  - 경계
+    - 리소스에 대한 네트워크 기반 공격으로부터 보호
+    - DDoS 방지 기능을 사용하여 사용자의 시스템 가용성에 영향을 주기 전에 대규모 공격을 필터링
+    - 경계 방화벽을 사용하여 네트워크에 대한 악의적인 공격을 식별하고 경고
+
+  - 네트워크
