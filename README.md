@@ -266,7 +266,7 @@
 
 ## Azure ID, 액세스 및 보안
 **Azure Active Directory**
-- Microsoft 클라우드 애플리케이션과 개발하는 클라우드 애플리케이션 모두에 고르인하고 액세스할 수 있는 Directory 서비스
+- Microsoft 클라우드 애플리케이션과 개발하는 클라우드 애플리케이션 모두에 로그인하고 액세스할 수 있는 Directory 서비스
 - ID 계정을 관리하며 Microsoft에서 해당 서비스를 전역적으로 사용할 수 있도록 지원
 - 제공되는 서비스
   - 인증
