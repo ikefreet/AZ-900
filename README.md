@@ -22,6 +22,10 @@
 **SaaS**
 - PaaS에 애플리케이션 코드 등까지 관리하여 전체 애플리케이션 스택을 제공하고 액세스 및 사용할 수 있는 권한 제공
 
+![alt text](https://lh3.googleusercontent.com/Zpw-v4ZOiAkbLm9ARSl68tGaZFYsFsz1ABwRbl8Cj_ozj12jCTPmgVGKBARz3Xwum1CUsMQ7Hog=e14-rj-sc0xffffff-h2000-w2000)
+
+<br/>
+
 ## Azure 물리적 인프라
 
 **물리적 인프라**
