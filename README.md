@@ -25,7 +25,7 @@
 - PaaS에 애플리케이션 코드 등까지 관리하여 전체 애플리케이션 스택을 제공하고 액세스 및 사용할 수 있는 권한 제공
 - 종류: Microsoft Office365, Dropbox, Google Apps, Web Mail
 
-![alt text](https://m.blog.naver.com/jhmwhdgus/221511183452?view=img_1)
+![alt text](https://blogfiles.pstatic.net/MjAxOTA0MTFfNjIg/MDAxNTU0OTY0OTE0NTgw.d805YYFjrhkZT0SHMo_OkkM4720yPNWWo-gc0AWXtxMg.E4JvyUeqF0c1fa3DUi-IyaxWqNrx4qf1VEUUAJYFW_4g.PNG.jhmwhdgus/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C.png)
 
 ![alt text](https://lh3.googleusercontent.com/Zpw-v4ZOiAkbLm9ARSl68tGaZFYsFsz1ABwRbl8Cj_ozj12jCTPmgVGKBARz3Xwum1CUsMQ7Hog=e14-rj-sc0xffffff-h2000-w2000)
 
