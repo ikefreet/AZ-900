@@ -14,13 +14,18 @@
 ## IaaS, PaaS, SaaS
 **IaaS**
 - 스토리지, 메모리 등 하드웨어를 가상화하여 주문형 인프라를 제공
+- 종류: AWS, Azure, VM, GCP
 
 **PaaS**
 - IaaS에 개발환경까지 가상화하여 애플리케이션을 개발하는데 필요한 모든 하드웨어 및 소프트웨어 리소스를 제공하고 관리
+- 종류: App Engine, AWS Elastic Beanstalk, Heorku
 
 
 **SaaS**
 - PaaS에 애플리케이션 코드 등까지 관리하여 전체 애플리케이션 스택을 제공하고 액세스 및 사용할 수 있는 권한 제공
+- 종류: Microsoft Office365, Dropbox, Google Apps, Web Mail
+
+![alt text](https://www.whatap.io/ko/blog/9/img/iaas_paas_saas3.webp)
 
 ![alt text](https://lh3.googleusercontent.com/Zpw-v4ZOiAkbLm9ARSl68tGaZFYsFsz1ABwRbl8Cj_ozj12jCTPmgVGKBARz3Xwum1CUsMQ7Hog=e14-rj-sc0xffffff-h2000-w2000)
 
