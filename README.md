@@ -25,7 +25,8 @@
 - PaaS에 애플리케이션 코드 등까지 관리하여 전체 애플리케이션 스택을 제공하고 액세스 및 사용할 수 있는 권한 제공
 - 종류: Microsoft Office365, Dropbox, Google Apps, Web Mail
 
-![alt text](https://www.whatap.io/ko/blog/9/img/iaas_paas_saas3.webp)
+![alt text](![image](https://github.com/ikefreet/AZ-900/assets/117957214/b6d9cb03-c902-49f3-b8b8-1099c2a041d7)
+)
 
 ![alt text](https://lh3.googleusercontent.com/Zpw-v4ZOiAkbLm9ARSl68tGaZFYsFsz1ABwRbl8Cj_ozj12jCTPmgVGKBARz3Xwum1CUsMQ7Hog=e14-rj-sc0xffffff-h2000-w2000)
 
